@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  parameter-store:
+    AWS_ACCESS_KEY_ID: "Terraform_access_key_id"
+    AWS_SECRET_ACCESS_KEY: "Terraform_secret_access_key"
+
 phases:
   build:
     commands:
